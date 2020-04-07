@@ -12,7 +12,7 @@ def fibonacci(n):
 
 def main():
     for i in range(12):
-        i, fibonacci(i)
+        print(i, fibonacci(i))
 
 if __name__ == '__main__':
     main()
